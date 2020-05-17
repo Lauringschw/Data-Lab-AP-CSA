@@ -1,14 +1,12 @@
-/*
- Represents information about a NWS weather station
-*/
-
 public class WeatherStation {
+	// instance variables
 	private String name;
 	private String id;
 	private String state;
 	private double lat;
 	private double lng;
 
+	// weatherStation constructor with parameters
 	WeatherStation(String name, String id, String state, double lat, double lng) {
 		this.name = name;
 		this.id = id;
@@ -17,27 +15,24 @@ public class WeatherStation {
 		this.state = state;
 	}
 
-	/* Produce the id of this station */
+	// accessor methods
 	public String getId() {
 		return id;
 	}
 
-	/* Produce the name of this station */
 	public String getName() {
 		return name;
 	}
 
-	/* Produce the longitude of this station */
 	public double getLong() {
 		return lng;
 	}
 
-	/* Produce the latitude of this station */
 	public double getLat() {
 		return lat;
 	}
 
-	/* Determine if this weather station is located in the given state */
+	// finds out if the location is at a state
 	public boolean isLocatedInState(String st) {
 		return this.state.equals(st);
 	}
