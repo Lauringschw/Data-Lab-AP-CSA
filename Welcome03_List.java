@@ -31,3 +31,4 @@ public class Welcome03_List {
 		System.out.println(southern.getName() + " Latitude: " + southern.getLat());
 	}
 }
+
