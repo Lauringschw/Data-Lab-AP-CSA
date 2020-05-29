@@ -61,3 +61,4 @@ class Observation {
 		return (temp + " degrees; " + description + " (wind: " + windDir + " degrees)");
 	}
 }
+
