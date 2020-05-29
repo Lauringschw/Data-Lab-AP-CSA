@@ -165,3 +165,4 @@ public class Cereal {
 		return "Cereal " + name + " Type:" + type + " Calories:" + calories + " Cups:" + cups + " Rating:" + rating;
 	}
 }
+
